@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-size: 3.5rem;
+    color: orange;
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#Rock{
+    background-color: rgb(255, 0, 85);
+}
+#paper{
+    background-color: cyan;
+}
+#scissors{
+    background-color: blueviolet;
+}
+#playerDisplay{
+    font-size: 2.5rem;
+    color: rgb(75, 255, 0);
+}
+#computerDisplay{
+    font-size: 2.5rem;
+    color: rgb(255, 0, 85);
+}
+#resultDisplay{
+    color: orange;
+    font-size: 5rem;
+    margin: 30px 0;
+}

@@ -1,0 +1,20 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+}
+div{
+    justify-content: center;
+    align-items: center;
+    padding-left: 330px;
+    margin-top: 30px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-size: 2rem;
+    margin: 3px;
+    background-color: tomato;
+    border-color: white;
+}

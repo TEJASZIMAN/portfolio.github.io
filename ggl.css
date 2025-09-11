@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin-left: 400px;
+}
+img{
+    width: 60px;
+    height: auto;
+    margin-top: 90px;
+    opacity: 75%;
+}
+h1{
+    font-weight: 500;
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 1.25rem;
+    background-color: blue;
+    color: white;
+    border: blue;
+    border-radius: 60px;
+    cursor: pointer;
+}
+#right{
+    margin-left: 500px;
+    background-color: white;
+    color: gray;
+    border:1px solid gray;
+}
+li::marker {
+    color: gray;
+}
+.nchor{
+    color: blue;
+}
+.nchor:hover{
+    text-decoration: underline;
+}

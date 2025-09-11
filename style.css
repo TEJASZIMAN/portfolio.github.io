@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: "roboto-mono" monospace;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 0, 85);
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 255, 255);
+    color: rgb(255, 0, 85);
+    position: sticky;
+    top: 0;
+    font-size: 1.3rem;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 0, 85);
+}
+nav ul li a:hover{
+  font-size: 1.5rem;
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #FFA500;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #8A2BE2;
+  width: 0%;
+}
+.left{
+    font-size: 4rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 75px 0;
+}
+.firstsection > div{
+   width: 30%;
+}   
+.leftsection{
+    font-size: 2rem;
+    color: rgb(255, 0, 85);
+    margin: 80px 0;
+    font-family: "Love Light", cursive;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#tej{
+    visibility: hidden;
+    border: 0;
+    animation: rainbow-animation 200ms linear infinite;
+    position: relative;
+    z-index: -1;
+}
+@keyframes rainbow-animation {
+    to{
+      filter: hue-rotate(0deg);
+    }
+   from{
+      filter: hue-rotate(360deg);
+    }
+  }
+img{
+    visibility: visible;
+    width: 80%;
+    margin: 30px 0;
+}
+.nice{
+    font-size: 2.5rem;
+    color: orange;
+    
+}
+#element{
+    color: blueviolet;
+    font-size: 2rem;
+    font-family: "Love Light", cursive;
+    font-weight: bolder;
+    font-style: normal;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+hr{
+    border: 0.2rem solid rgb(255, 0, 85);
+    background: rgb(255, 255, 255);
+    height: 3px;
+    margin: 45px 90px;
+    border-radius: 4px;
+}
+.secondSection h1 {
+    font-size: 3rem;
+    color: orange;
+}
+.pie {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: conic-gradient(
+            rgb(255, 0, 85) 0% 40%,
+            aqua 40% 90%,
+            orangered 70% 85%,
+            blueviolet 85%
+    );
+    float: left;
+}
+
+.pieindex{
+    margin-left: 600px;
+    margin-top: 2px;
+    font-size: 4.5rem;
+}
+#aqua{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    float: left;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+#orangered{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    float: left;
+    margin-top: 13px;
+    margin-right: 5px;
+}
+#blueviolet{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+#neonpink{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 85);
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+#amber{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+
+  html {
+    --s: 85px; /* control the size*/
+    --c1: #ffffff;
+    --c2: #f5f5f5;
+    
+    --g1:conic-gradient(from  45deg at 62.5% 12.5%,#0000 75%,var(--c1) 0);
+    --g2:conic-gradient(from -45deg at 12.5% 12.5%,#0000 75%,var(--c1) 0);
+    --g3:conic-gradient(from 225deg at 87.5% 87.5%,#0000 75%,var(--c2) 0);
+    --g4:conic-gradient(from 135deg at 87.5% 37.5%,#0000 75%,var(--c2) 0);
+    background:
+      var(--g4),var(--g4) var(--s) var(--s),
+      var(--g3),var(--g3) var(--s) var(--s),
+      var(--g2),var(--g2) var(--s) var(--s),
+      var(--g1),var(--g1) var(--s) var(--s),
+      repeating-linear-gradient(135deg,var(--c2) 0 12.5%,var(--c1) 0 25%);
+    background-size: calc(2*var(--s)) calc(2*var(--s))
+  }  
+#hrrr{
+    margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: rgba(221, 221, 221, 0.4);
+  font-size: 1.25rem;
+}
+p{
+    font-size: 2rem;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.html {width: 97%; background-color: rgb(255, 0, 85);}
+.css {width: 89%; background-color: aqua;}
+.js {width: 30%; background-color: #FEDB43;}
+.php {width: 75%; background-color: #8A2BE2;}
+
+footer{
+    height: 100px;
+    background-color: aqua;
+    width: 114.79%;
+    margin-left: -200px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+marquee{
+    background-color: #8A2BE2;
+    color: white;
+    margin-right: 20px;
+    width: 84.5%;
+    float: right;
+    height: 25px;
+    padding-top: 5px;
+    border-radius: 6px;
+}
+#thend{
+    font-size: 2rem;
+    margin-left: 800px;
+}
+.website{
+    height: 250px;
+    width: 250px;
+    border: 5px solid orange; 
+    border-radius: 15px;
+    background-color: cyan;
+    color: rgb(255, 0, 85);
+    font-size: 2.5rem;
+    font-family: "Love Light", cursive;
+    font-style: normal;
+}
