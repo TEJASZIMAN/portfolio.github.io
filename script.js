@@ -7,6 +7,7 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-function myFunction() {
-            alert("Other projects comming soon ");
-        }
+//function myFunction() {
+//            alert("Other projects comming soon ");
+//        }
+
