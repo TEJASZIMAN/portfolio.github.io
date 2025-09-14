@@ -252,4 +252,9 @@ marquee{
     font-size: 2.5rem;
     font-family: "Love Light", cursive;
     font-style: normal;
+
+}
+h1:target {
+      color: white;
+      background: orange;
 }
