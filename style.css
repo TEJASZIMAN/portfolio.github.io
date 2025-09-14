@@ -122,10 +122,9 @@ hr{
     width: 500px;
     border-radius: 50%;
     background: conic-gradient(
-            rgb(255, 0, 85) 0% 40%,
-            aqua 40% 90%,
-            orangered 70% 85%,
-            blueviolet 85%
+            rgb(255, 0, 85) 0% 51%,
+            aqua 51% 72%,
+            blueviolet 72%
     );
     float: left;
 }
@@ -215,7 +214,7 @@ p{
 
 .html {width: 97%; background-color: rgb(255, 0, 85);}
 .css {width: 89%; background-color: aqua;}
-.js {width: 30%; background-color: #FEDB43;}
+.js {width: 52%; background-color: #FEDB43;}
 .php {width: 75%; background-color: #8A2BE2;}
 
 footer{
@@ -258,3 +257,4 @@ h1:target {
       color: white;
       background: orange;
 }
+
